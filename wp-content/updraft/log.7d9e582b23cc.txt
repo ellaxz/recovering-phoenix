@@ -1,0 +1,400 @@
+0000.000 (0) Opened log file at time: Wed, 18 Aug 2021 07:56:54 +0000 on http://34.129.124.100
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.59 WP: 5.8 PHP: 7.4.22 (fpm-fcgi, Linux fit5120ie1-vm 4.19.0-17-cloud-amd64 #1 SMP Debian 4.19.194-3 (2021-07-18) x86_64) MySQL: 10.3.31-MariaDB (max packet size=16777216) WPLANG: en_US Server: Apache/2.4.48 (Unix) OpenSSL/1.1.1d safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 8.2M | 2M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 5285.3 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.011 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.015 (0) Set semaphore last lock (fd) time to 2021-08-18 07:56:54
+0000.015 (0) Semaphore lock (fd) complete
+0000.020 (0) Backup run: resumption=0, nonce=7d9e582b23cc, file_nonce=7d9e582b23cc begun at=1629273414 (0s ago), job type=backup
+0000.023 (0) Scheduling a resumption (1) after 300 seconds (1629273714) in case this run gets aborted
+0000.025 (0) Checking if we have a zip executable available
+0000.027 (0) Testing: /usr/bin/zip
+0000.032 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.034 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.035 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.036 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.038 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.042 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.044 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.045 (0) Working binary zip found: /usr/bin/zip
+0000.048 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.050 (0) Creation of backups of directories: beginning
+0000.054 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.314 (0) Total entities for the zip file: 4790 directories, 15768 files (0 skipped as non-modified), 220.5 MB
+0001.319 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.322 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.325 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.327 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.329 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.331 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.333 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.336 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.339 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.341 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.343 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.6 MB, 15768 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.135 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: size is now: 3.70 MB
+0002.140 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 1100 files added (on-disk size: 3760.9 KB)
+0002.142 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 1200 files added (on-disk size: 3760.9 KB)
+0002.145 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 1300 files added (on-disk size: 3760.9 KB)
+0002.148 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 1400 files added (on-disk size: 3760.9 KB)
+0002.150 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 1500 files added (on-disk size: 3760.9 KB)
+0002.152 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 1600 files added (on-disk size: 3760.9 KB)
+0002.155 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 1700 files added (on-disk size: 3760.9 KB)
+0002.157 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 1800 files added (on-disk size: 3760.9 KB)
+0002.160 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 1900 files added (on-disk size: 3760.9 KB)
+0002.163 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 2000 files added (on-disk size: 3760.9 KB)
+0002.164 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.6 MB, 15768 files batched, 1001 (2002) added so far); re-opening (prior size: 3760.9 KB)
+0003.107 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: size is now: 6.00 MB
+0003.113 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 2100 files added (on-disk size: 6145.1 KB)
+0003.116 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 2200 files added (on-disk size: 6145.1 KB)
+0003.118 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 2300 files added (on-disk size: 6145.1 KB)
+0003.120 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 2400 files added (on-disk size: 6145.1 KB)
+0003.123 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 2500 files added (on-disk size: 6145.1 KB)
+0003.125 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 2600 files added (on-disk size: 6145.1 KB)
+0003.128 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 2700 files added (on-disk size: 6145.1 KB)
+0003.131 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 2800 files added (on-disk size: 6145.1 KB)
+0003.133 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 2900 files added (on-disk size: 6145.1 KB)
+0003.136 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 3000 files added (on-disk size: 6145.1 KB)
+0003.137 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.9 MB, 15768 files batched, 1001 (3003) added so far); re-opening (prior size: 6145.1 KB)
+0003.587 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 3100 files added (on-disk size: 7333.3 KB)
+0003.589 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 3200 files added (on-disk size: 7333.3 KB)
+0003.593 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 3300 files added (on-disk size: 7333.3 KB)
+0003.597 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 3400 files added (on-disk size: 7333.3 KB)
+0003.602 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 3500 files added (on-disk size: 7333.3 KB)
+0003.605 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 3600 files added (on-disk size: 7333.3 KB)
+0003.608 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 3700 files added (on-disk size: 7333.3 KB)
+0003.610 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 3800 files added (on-disk size: 7333.3 KB)
+0003.613 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 3900 files added (on-disk size: 7333.3 KB)
+0003.615 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 4000 files added (on-disk size: 7333.3 KB)
+0003.616 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.5 MB, 15768 files batched, 1001 (4004) added so far); re-opening (prior size: 7333.3 KB)
+0004.149 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: size is now: 9.10 MB
+0004.153 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 4100 files added (on-disk size: 9323.5 KB)
+0004.156 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 4200 files added (on-disk size: 9323.5 KB)
+0004.159 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 4300 files added (on-disk size: 9323.5 KB)
+0004.161 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 4400 files added (on-disk size: 9323.5 KB)
+0004.164 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 4500 files added (on-disk size: 9323.5 KB)
+0004.167 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 4600 files added (on-disk size: 9323.5 KB)
+0004.169 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 4700 files added (on-disk size: 9323.5 KB)
+0004.171 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 4800 files added (on-disk size: 9323.5 KB)
+0004.173 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 4900 files added (on-disk size: 9323.5 KB)
+0004.175 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 15768 files batched, 938 (4942) added so far); re-opening (prior size: 9323.5 KB)
+0005.700 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: size is now: 15.70 MB
+0005.704 (0) A useful amount of data was added after this amount of zip processing: 1.8 s (normalised: 1.8 s, rate: 14048.8 KB/s)
+0005.707 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.8225429058075, normalised_time=1.8222213422421, max_time=5.7059710025787, data points known=1, old_max_bytes=26214400, new_max_bytes=86315749)
+0005.711 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 5000 files added (on-disk size: 16083.3 KB)
+0005.713 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 5100 files added (on-disk size: 16083.3 KB)
+0005.716 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 5200 files added (on-disk size: 16083.3 KB)
+0005.718 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 5300 files added (on-disk size: 16083.3 KB)
+0005.720 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 5400 files added (on-disk size: 16083.3 KB)
+0005.723 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 5500 files added (on-disk size: 16083.3 KB)
+0005.725 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 5600 files added (on-disk size: 16083.3 KB)
+0005.728 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 5700 files added (on-disk size: 16083.3 KB)
+0005.730 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 5800 files added (on-disk size: 16083.3 KB)
+0005.733 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 5900 files added (on-disk size: 16083.3 KB)
+0005.735 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.5 MB, 15768 files batched, 1001 (5943) added so far); re-opening (prior size: 16083.3 KB)
+0006.523 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: size is now: 20.20 MB
+0006.529 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 6000 files added (on-disk size: 20677.5 KB)
+0006.532 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 6100 files added (on-disk size: 20677.5 KB)
+0006.535 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 6200 files added (on-disk size: 20677.5 KB)
+0006.537 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 6300 files added (on-disk size: 20677.5 KB)
+0006.540 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 6400 files added (on-disk size: 20677.5 KB)
+0006.542 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 6500 files added (on-disk size: 20677.5 KB)
+0006.545 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 6600 files added (on-disk size: 20677.5 KB)
+0006.548 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 6700 files added (on-disk size: 20677.5 KB)
+0006.549 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 6800 files added (on-disk size: 20677.5 KB)
+0006.552 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 6900 files added (on-disk size: 20677.5 KB)
+0006.554 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13 MB, 15768 files batched, 1001 (6944) added so far); re-opening (prior size: 20677.5 KB)
+0007.320 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 7000 files added (on-disk size: 22434.7 KB)
+0007.322 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 7100 files added (on-disk size: 22434.7 KB)
+0007.325 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 7200 files added (on-disk size: 22434.7 KB)
+0007.328 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 7300 files added (on-disk size: 22434.7 KB)
+0007.329 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 7400 files added (on-disk size: 22434.7 KB)
+0007.332 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 7500 files added (on-disk size: 22434.7 KB)
+0007.335 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 7600 files added (on-disk size: 22434.7 KB)
+0007.336 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 7700 files added (on-disk size: 22434.7 KB)
+0007.339 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 7800 files added (on-disk size: 22434.7 KB)
+0007.341 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 7900 files added (on-disk size: 22434.7 KB)
+0007.343 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4 MB, 15768 files batched, 1001 (7945) added so far); re-opening (prior size: 22434.7 KB)
+0007.880 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 8000 files added (on-disk size: 23488 KB)
+0007.882 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 8100 files added (on-disk size: 23488 KB)
+0007.885 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 8200 files added (on-disk size: 23488 KB)
+0007.888 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 8300 files added (on-disk size: 23488 KB)
+0007.889 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 8400 files added (on-disk size: 23488 KB)
+0007.892 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 8500 files added (on-disk size: 23488 KB)
+0007.899 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 8600 files added (on-disk size: 23488 KB)
+0007.901 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 8700 files added (on-disk size: 23488 KB)
+0007.903 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 8800 files added (on-disk size: 23488 KB)
+0007.905 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 8900 files added (on-disk size: 23488 KB)
+0007.907 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.9 MB, 15768 files batched, 1001 (8946) added so far); re-opening (prior size: 23488 KB)
+0009.096 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: size is now: 29.20 MB
+0009.101 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 9000 files added (on-disk size: 29885.7 KB)
+0009.104 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 9100 files added (on-disk size: 29885.7 KB)
+0009.106 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 9200 files added (on-disk size: 29885.7 KB)
+0009.109 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 9300 files added (on-disk size: 29885.7 KB)
+0009.111 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 9400 files added (on-disk size: 29885.7 KB)
+0009.113 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 9500 files added (on-disk size: 29885.7 KB)
+0009.118 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 9600 files added (on-disk size: 29885.7 KB)
+0009.121 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 9700 files added (on-disk size: 29885.7 KB)
+0009.124 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 9800 files added (on-disk size: 29885.7 KB)
+0009.125 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 9900 files added (on-disk size: 29885.7 KB)
+0009.128 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.7 MB, 15768 files batched, 1001 (9947) added so far); re-opening (prior size: 29885.7 KB)
+0010.505 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: size is now: 35.50 MB
+0010.509 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 10000 files added (on-disk size: 36324.1 KB)
+0010.512 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 10100 files added (on-disk size: 36324.1 KB)
+0010.515 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 10200 files added (on-disk size: 36324.1 KB)
+0010.517 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 10300 files added (on-disk size: 36324.1 KB)
+0010.520 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 10400 files added (on-disk size: 36324.1 KB)
+0010.522 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 10500 files added (on-disk size: 36324.1 KB)
+0010.524 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 10600 files added (on-disk size: 36324.1 KB)
+0010.527 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 10700 files added (on-disk size: 36324.1 KB)
+0010.529 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 10800 files added (on-disk size: 36324.1 KB)
+0010.532 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 10900 files added (on-disk size: 36324.1 KB)
+0010.533 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.3 MB, 15768 files batched, 1001 (10948) added so far); re-opening (prior size: 36324.1 KB)
+0011.498 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 11000 files added (on-disk size: 39610 KB)
+0011.501 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 11100 files added (on-disk size: 39610 KB)
+0011.504 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 11200 files added (on-disk size: 39610 KB)
+0011.507 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 11300 files added (on-disk size: 39610 KB)
+0011.509 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 11400 files added (on-disk size: 39610 KB)
+0011.511 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 11500 files added (on-disk size: 39610 KB)
+0011.513 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 11600 files added (on-disk size: 39610 KB)
+0011.516 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 11700 files added (on-disk size: 39610 KB)
+0011.519 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 11800 files added (on-disk size: 39610 KB)
+0011.521 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 11900 files added (on-disk size: 39610 KB)
+0011.523 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.6 MB, 15768 files batched, 1001 (11949) added so far); re-opening (prior size: 39610 KB)
+0012.383 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 12000 files added (on-disk size: 43534.9 KB)
+0012.386 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 12100 files added (on-disk size: 43534.9 KB)
+0012.388 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 12200 files added (on-disk size: 43534.9 KB)
+0012.391 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 12300 files added (on-disk size: 43534.9 KB)
+0012.393 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 12400 files added (on-disk size: 43534.9 KB)
+0012.396 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 12500 files added (on-disk size: 43534.9 KB)
+0012.398 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 12600 files added (on-disk size: 43534.9 KB)
+0012.400 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 12700 files added (on-disk size: 43534.9 KB)
+0012.403 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 12800 files added (on-disk size: 43534.9 KB)
+0012.405 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 12900 files added (on-disk size: 43534.9 KB)
+0012.408 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.4 MB, 15768 files batched, 1001 (12950) added so far); re-opening (prior size: 43534.9 KB)
+0013.352 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 13000 files added (on-disk size: 46648.4 KB)
+0013.354 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 13100 files added (on-disk size: 46648.4 KB)
+0013.357 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 13200 files added (on-disk size: 46648.4 KB)
+0013.360 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 13300 files added (on-disk size: 46648.4 KB)
+0013.362 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 13400 files added (on-disk size: 46648.4 KB)
+0013.364 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 13500 files added (on-disk size: 46648.4 KB)
+0013.367 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 13600 files added (on-disk size: 46648.4 KB)
+0013.369 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 13700 files added (on-disk size: 46648.4 KB)
+0013.372 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 13800 files added (on-disk size: 46648.4 KB)
+0013.373 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 13900 files added (on-disk size: 46648.4 KB)
+0013.376 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (26 MB, 15768 files batched, 1001 (13951) added so far); re-opening (prior size: 46648.4 KB)
+0014.418 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: size is now: 62.60 MB
+0014.424 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 14000 files added (on-disk size: 64094.8 KB)
+0014.427 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 14100 files added (on-disk size: 64094.8 KB)
+0014.429 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 14200 files added (on-disk size: 64094.8 KB)
+0014.432 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 14300 files added (on-disk size: 64094.8 KB)
+0014.434 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 14400 files added (on-disk size: 64094.8 KB)
+0014.437 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 14500 files added (on-disk size: 64094.8 KB)
+0014.439 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 14600 files added (on-disk size: 64094.8 KB)
+0014.441 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 14700 files added (on-disk size: 64094.8 KB)
+0014.444 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 14800 files added (on-disk size: 64094.8 KB)
+0014.447 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 14900 files added (on-disk size: 64094.8 KB)
+0014.448 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (24.4 MB, 15768 files batched, 1001 (14952) added so far); re-opening (prior size: 64094.8 KB)
+0016.584 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 15000 files added (on-disk size: 72228.3 KB)
+0016.587 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 15100 files added (on-disk size: 72228.3 KB)
+0016.589 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 15200 files added (on-disk size: 72228.3 KB)
+0016.592 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 15300 files added (on-disk size: 72228.3 KB)
+0016.595 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 15400 files added (on-disk size: 72228.3 KB)
+0016.597 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 15500 files added (on-disk size: 72228.3 KB)
+0016.600 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 15600 files added (on-disk size: 72228.3 KB)
+0016.602 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip.tmp: 15700 files added (on-disk size: 72228.3 KB)
+0019.155 (0) Created plugins zip (0) - 74790.8 KB in 19.1 s (3915.9 KB/s) (sha1: ed2f960e7f65f4604a6ae2584337ff0dc968e099, sha256: d4b23158f2d50ad14a8c30b8986811b38b795293ad3b4b323a44fc2b1bfefade)
+0019.159 (0) Beginning creation of dump of themes (split every: 400 MB)
+0019.224 (0) Total entities for the zip file: 233 directories, 846 files (0 skipped as non-modified), 26.2 MB
+0019.228 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0019.230 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0019.233 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0019.235 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0019.237 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0019.240 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0019.242 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0019.245 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0020.372 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-themes.zip.tmp: size is now: 18.30 MB
+0020.623 (0) Created themes zip (0) - 18757.8 KB in 1.5 s (12827.7 KB/s) (sha1: 9eb2ef82929f1ca1bbcda7c6db8fad172932feb2, sha256: 255d404a65f05d66e9ebe0b9e0e63a72aa5db5db86c028242b65f69d3b069d79)
+0020.627 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0020.628 (0) Looking for candidates to backup in: /opt/bitnami/wordpress/wp-content/uploads
+0020.629 (0) finding files: elementor: adding to list (1)
+0020.630 (0) finding files: 2021: adding to list (2)
+0020.631 (0) finding files: astra-sites: adding to list (3)
+0020.632 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0020.639 (0) Total entities for the zip file: 7 directories, 135 files (0 skipped as non-modified), 10 MB
+0020.642 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0020.803 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-uploads.zip.tmp: size is now: 9.90 MB
+0020.924 (0) Created uploads zip (0) - 10171.3 KB in 0.3 s (34957 KB/s) (sha1: a5bde54e43aa707d6e27fa1143faeb2094b7e054, sha256: a5e5352e345548947d0b98f3a2937dfc4d78274c7c52ebe1975fc4d40021cee0)
+0020.928 (0) Beginning backup of other directories found in the content directory (index: 0)
+0020.929 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0020.931 (0) Looking for candidates to backup in: /opt/bitnami/wordpress/wp-content
+0020.932 (0) finding files: languages: adding to list (1)
+0020.932 (0) finding files: themes: skipping: this is the themes directory
+0020.934 (0) finding files: uploads: skipping: this is the uploads directory
+0020.935 (0) finding files: plugins: skipping: this is the plugins directory
+0020.936 (0) finding files: upgrade: skipping: excluded by options
+0020.937 (0) finding files: updraft: skipping: this is the updraft directory
+0020.939 (0) finding files: index.php: adding to list (2)
+0020.944 (0) Total entities for the zip file: 3 directories, 249 files (0 skipped as non-modified), 5.6 MB
+0020.946 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0020.949 (0) Zip: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0021.345 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-others.zip.tmp: size is now: 1.80 MB
+0021.373 (0) Created others zip (0) - 1819.3 KB in 0.4 s (4198.8 KB/s) (sha1: a52bccb2463832f899982c44c98008ed69c03d6b, sha256: b5d8ecd7bf11613da81d16bff66fc743f9c06b78fabd701014491575dbd1524c)
+0021.383 (0) Saving backup status to database (elements: 8)
+0021.386 (0) Beginning creation of database dump (WordPress DB)
+0021.387 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0021.400 (0) Table wp_options: Total expected rows (approximate): 780
+0021.974 (0) Table wp_options: Rows added in this batch (next record: 3230): 758 (uncompressed bytes in this segment=15990538) in 0.57 seconds
+0021.984 (0) Table wp_options: finishing file(s) (2, 1810.6 KB)
+0021.988 (0) Table wp_users: Total expected rows (approximate): 2
+0021.992 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1480) in 0.00 seconds
+0021.999 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0022.001 (0) Table wp_usermeta: Total expected rows (approximate): 47
+0022.010 (0) Table wp_usermeta: Rows added in this batch (next record: 48): 47 (uncompressed bytes in this segment=4383) in 0.01 seconds
+0022.017 (0) Table wp_usermeta: finishing file(s) (2, 1.8 KB)
+0022.020 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 10
+0022.028 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 16): 10 (uncompressed bytes in this segment=4664) in 0.01 seconds
+0022.035 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.1 KB)
+0022.037 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0022.040 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=631) in 0.00 seconds
+0022.046 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0022.049 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 2
+0022.052 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=703) in 0.00 seconds
+0022.056 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0022.060 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 28
+0022.064 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 28): 28 (uncompressed bytes in this segment=3189) in 0.00 seconds
+0022.069 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.8 KB)
+0022.073 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0022.079 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.00 seconds
+0022.085 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0022.089 (0) Table wp_comments: Total expected rows (approximate): 1
+0022.094 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2093) in 0.00 seconds
+0022.099 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0022.103 (0) Table wp_links: Total expected rows (approximate): 0
+0022.105 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.00 seconds
+0022.111 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0022.115 (0) Table wp_postmeta: Total expected rows (approximate): 901
+0022.630 (0) Table wp_postmeta: Rows added in this batch (next record: 1583): 1338 (uncompressed bytes in this segment=13432745) in 0.51 seconds
+0022.639 (0) Table wp_postmeta: finishing file(s) (2, 1460.1 KB)
+0022.643 (0) Table wp_posts: Total expected rows (approximate): 225
+0022.699 (0) Table wp_posts: Rows added in this batch (next record: 257): 239 (uncompressed bytes in this segment=1808929) in 0.06 seconds
+0022.707 (0) Table wp_posts: finishing file(s) (2, 117.6 KB)
+0022.711 (0) Table wp_term_relationships: Total expected rows (approximate): 505
+0022.717 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 505 (uncompressed bytes in this segment=7989) in 0.01 seconds
+0022.724 (0) Table wp_term_relationships: finishing file(s) (2, 1.6 KB)
+0022.727 (0) Table wp_term_taxonomy: Total expected rows (approximate): 112
+0022.738 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 113): 112 (uncompressed bytes in this segment=107495) in 0.01 seconds
+0022.744 (0) Table wp_term_taxonomy: finishing file(s) (2, 5 KB)
+0022.748 (0) Table wp_termmeta: Total expected rows (approximate): 105
+0022.753 (0) Table wp_termmeta: Rows added in this batch (next record: 105): 105 (uncompressed bytes in this segment=6380) in 0.00 seconds
+0022.760 (0) Table wp_termmeta: finishing file(s) (2, 1.1 KB)
+0022.763 (0) Table wp_terms: Total expected rows (approximate): 112
+0022.768 (0) Table wp_terms: Rows added in this batch (next record: 113): 112 (uncompressed bytes in this segment=9536) in 0.00 seconds
+0022.773 (0) Table wp_terms: finishing file(s) (2, 3.3 KB)
+0022.777 (0) Table wp_e_submissions: Total expected rows (approximate): 0
+0022.779 (0) Table wp_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2245) in 0.00 seconds
+0022.784 (0) Table wp_e_submissions: finishing file(s) (2, 0.7 KB)
+0022.788 (0) Table wp_e_submissions_actions_log: Total expected rows (approximate): 0
+0022.790 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1244) in 0.00 seconds
+0022.795 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0022.799 (0) Table wp_e_submissions_values: Total expected rows (approximate): 0
+0022.803 (0) Table wp_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=723) in 0.00 seconds
+0022.808 (0) Table wp_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0022.812 (0) Table wp_relevanssi: Total expected rows (approximate): 34
+0022.816 (0) Table wp_relevanssi: Rows added in this batch (next record: 1000): 34 (uncompressed bytes in this segment=4486) in 0.00 seconds
+0022.821 (0) Table wp_relevanssi: finishing file(s) (2, 0.9 KB)
+0022.824 (0) Table wp_relevanssi_log: Total expected rows (approximate): 0
+0022.828 (0) Table wp_relevanssi_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=749) in 0.00 seconds
+0022.833 (0) Table wp_relevanssi_log: finishing file(s) (2, 0.4 KB)
+0022.836 (0) Table wp_relevanssi_stopwords: Total expected rows (approximate): 0
+0022.839 (0) Table wp_relevanssi_stopwords: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=501) in 0.00 seconds
+0022.844 (0) Table wp_relevanssi_stopwords: finishing file(s) (2, 0.3 KB)
+0022.847 (0) Table wp_wpmailsmtp_debug_events: Total expected rows (approximate): 2
+0022.849 (0) Table wp_wpmailsmtp_debug_events: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1152) in 0.00 seconds
+0022.855 (0) Table wp_wpmailsmtp_debug_events: finishing file(s) (2, 0.6 KB)
+0022.857 (0) Table wp_wpmailsmtp_tasks_meta: Total expected rows (approximate): 6
+0022.865 (0) Table wp_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1148) in 0.01 seconds
+0022.872 (0) Table wp_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.5 KB)
+0022.873 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_options.table.tmpr3231.gz (1/24/fopen): adding to final database dump
+0022.894 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_options.table.gz (2/24/fopen): adding to final database dump
+0022.896 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_users.table.tmpr3.gz (3/24/fopen): adding to final database dump
+0022.898 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_users.table.gz (4/24/fopen): adding to final database dump
+0022.899 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_usermeta.table.tmpr49.gz (5/24/fopen): adding to final database dump
+0022.900 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_usermeta.table.gz (6/24/fopen): adding to final database dump
+0022.902 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_actionscheduler_actions.table.tmpr17.gz (7/24/fopen): adding to final database dump
+0022.903 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_actionscheduler_actions.table.gz (8/24/fopen): adding to final database dump
+0022.904 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/24/fopen): adding to final database dump
+0022.905 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_actionscheduler_claims.table.gz (10/24/fopen): adding to final database dump
+0022.906 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/24/fopen): adding to final database dump
+0022.907 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_actionscheduler_groups.table.gz (12/24/fopen): adding to final database dump
+0022.908 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_actionscheduler_logs.table.tmpr29.gz (13/24/fopen): adding to final database dump
+0022.910 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_actionscheduler_logs.table.gz (14/24/fopen): adding to final database dump
+0022.911 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_commentmeta.table.tmpr0.gz (15/24/fopen): adding to final database dump
+0022.912 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_commentmeta.table.gz (16/24/fopen): adding to final database dump
+0022.914 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_comments.table.tmpr2.gz (17/24/fopen): adding to final database dump
+0022.915 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_comments.table.gz (18/24/fopen): adding to final database dump
+0022.916 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_links.table.tmpr0.gz (19/24/fopen): adding to final database dump
+0022.918 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_links.table.gz (20/24/fopen): adding to final database dump
+0022.919 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_postmeta.table.tmpr1584.gz (21/24/fopen): adding to final database dump
+0022.935 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_postmeta.table.gz (22/24/fopen): adding to final database dump
+0022.937 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_posts.table.tmpr258.gz (23/24/fopen): adding to final database dump
+0022.940 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_posts.table.gz (24/24/fopen): adding to final database dump
+0022.942 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_term_relationships.table.tmpr100001.gz (25/24/fopen): adding to final database dump
+0022.943 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_term_relationships.table.gz (26/24/fopen): adding to final database dump
+0022.944 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_term_taxonomy.table.tmpr114.gz (27/24/fopen): adding to final database dump
+0022.946 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_term_taxonomy.table.gz (28/24/fopen): adding to final database dump
+0022.947 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_termmeta.table.tmpr106.gz (29/24/fopen): adding to final database dump
+0022.948 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_termmeta.table.gz (30/24/fopen): adding to final database dump
+0022.950 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_terms.table.tmpr114.gz (31/24/fopen): adding to final database dump
+0022.951 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_terms.table.gz (32/24/fopen): adding to final database dump
+0022.952 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_e_submissions.table.tmpr0.gz (33/24/fopen): adding to final database dump
+0022.954 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_e_submissions.table.gz (34/24/fopen): adding to final database dump
+0022.955 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_e_submissions_actions_log.table.tmpr0.gz (35/24/fopen): adding to final database dump
+0022.956 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_e_submissions_actions_log.table.gz (36/24/fopen): adding to final database dump
+0022.958 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_e_submissions_values.table.tmpr0.gz (37/24/fopen): adding to final database dump
+0022.959 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_e_submissions_values.table.gz (38/24/fopen): adding to final database dump
+0022.960 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_relevanssi.table.tmpr1001.gz (39/24/fopen): adding to final database dump
+0022.961 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_relevanssi.table.gz (40/24/fopen): adding to final database dump
+0022.963 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_relevanssi_log.table.tmpr0.gz (41/24/fopen): adding to final database dump
+0022.964 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_relevanssi_log.table.gz (42/24/fopen): adding to final database dump
+0022.965 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_relevanssi_stopwords.table.tmpr1.gz (43/24/fopen): adding to final database dump
+0022.967 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_relevanssi_stopwords.table.gz (44/24/fopen): adding to final database dump
+0022.968 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_wpmailsmtp_debug_events.table.tmpr3.gz (45/24/fopen): adding to final database dump
+0022.969 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_wpmailsmtp_debug_events.table.gz (46/24/fopen): adding to final database dump
+0022.971 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_wpmailsmtp_tasks_meta.table.tmpr7.gz (47/24/fopen): adding to final database dump
+0022.972 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db-table-wp_wpmailsmtp_tasks_meta.table.gz (48/24/fopen): adding to final database dump
+0022.979 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db.gz: finished writing out complete database file (3410.9 KB)
+0023.027 (0) Total database tables backed up: 24 (backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db.gz, size: 3492854, sha1: ffd5993b48014105b8bd797f5b8586c6aa561911, sha256: 120183d6af3f04a8d14c6773a6b377720af8727849f21068e271532d4473c04e)
+0023.034 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0023.035 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0023.036 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0023.038 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-others.zip: others: This file has not yet been successfully uploaded: will queue
+0023.039 (0) backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db.gz: db: This file has not yet been successfully uploaded: will queue
+0023.040 (0) Saving backup history. Total backup size: 106.4 MB
+0023.043 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0023.048 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0023.051 (0) No remote despatch: user chose no remote backup service
+0023.052 (0) Recording as successfully uploaded: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-plugins.zip
+0023.054 (0) Recording as successfully uploaded: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-themes.zip
+0023.224 (0) Recording as successfully uploaded: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-uploads.zip
+0024.067 (0) Recording as successfully uploaded: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-others.zip
+0024.071 (0) Recording as successfully uploaded: backup_2021-08-18-1756_Recovering_Phoenix_7d9e582b23cc-db.gz
+0024.076 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0024.078 (0) Number of backup sets in history: 1; groups (db): 1
+0024.080 (0) Examining (for databases) backup set with group_id=0, nonce=7d9e582b23cc, datestamp=1629273414 (Aug 18 2021 07:56:54)
+0024.081 (0) This backup set is the backup set just made, so will not be deleted.
+0024.081 (0) Number of backup sets in history: 1; groups (files): 1
+0024.083 (0) Examining (for files) backup set with nonce=7d9e582b23cc, datestamp=1629273414 (Aug 18 2021 07:56:54)
+0024.083 (0) This backup set is the backup set just made, so will not be deleted.
+0024.084 (0) This backup set is the backup set just made, so will not be deleted.
+0024.084 (0) This backup set is the backup set just made, so will not be deleted.
+0024.084 (0) This backup set is the backup set just made, so will not be deleted.
+0024.084 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0024.087 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0024.091 (0) Resume backup (7d9e582b23cc, 0): finish run
+0024.095 (0) Decremented the semaphore (fd) by 1
+0024.101 (0) Semaphore (fd) unlocked
+0024.104 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0024.112 (0) No email will/can be sent - the user has not configured an email address.
+0024.113 (0) The backup apparently succeeded and is now complete
